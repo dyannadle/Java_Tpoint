@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ConvertUTF8ToUnicode",
+            "request": "launch",
+            "mainClass": "Unicode.ConvertUTF8ToUnicode",
+            "projectName": "Java_Tpoint_f7287e40"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
