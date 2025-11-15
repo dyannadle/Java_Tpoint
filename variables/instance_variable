@@ -1,0 +1,15 @@
+public class instance_variable {
+    public String name;
+    public int age = 20; // instance variable
+
+public instance_variable() {
+        this.name= "Deepak Yannadle"; // initializing instance variable
+    }   
+}
+public class main{
+    public static void main(String[] args) {
+ instance_variable obj = new instance_variable();
+        System.out.println("student name: " + obj.name);
+        System.out.println("student age: " + obj.age);  
+    }
+}
