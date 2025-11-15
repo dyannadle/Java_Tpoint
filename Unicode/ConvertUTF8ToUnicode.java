@@ -1,11 +1,11 @@
 public class ConvertUTF8ToUnicode {
 public static void main(String[] args) {
-        String utf8String = "Hello, 世界"; // UTF-8 encoded string
-        byte[] utf8Bytes = utf8String.getBytes(java.nio.charset.StandardCharsets.UTF_8);
-        String unicodeString = new String(utf8Bytes, java.nio.charset.StandardCharsets.UTF_8);
-        System.out.println("Original UTF-8 String: " + utf8String);
-        System.out.println("Converted Unicode String: " + unicodeString);
-    }    
+        String str1 = "Unicode System\u00A9";   // UTF-8 String
+        byte [] charset = str1.getBytes("UTF-8");// Converting UTF-8 String to byte array
+        String newstr = new String(charset, "UTF-8");// Converting byte array to Unicode String
+        System.out.println("Original UTF-8 String: " + str1);
+        System.out.println("Converted Unicode String: " + str2);
+} 
 }
 
 
