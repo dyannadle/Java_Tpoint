@@ -1,4 +1,4 @@
-public class sample_unicode {
+public class Sample_unicode {
     public static void main(String[] args) {
         char a= '\u0041';// Unicode for A
         char b= '\u0042';// Unicode for B
