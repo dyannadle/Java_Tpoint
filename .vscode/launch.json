@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Simple_If",
+            "request": "launch",
+            "mainClass": "Simple_If",
+            "projectName": "Java_Tpoint_f7287e40"
+        },
+        {
+            "type": "java",
             "name": "ConvertUTF8ToUnicode",
             "request": "launch",
             "mainClass": "Unicode.ConvertUTF8ToUnicode",
