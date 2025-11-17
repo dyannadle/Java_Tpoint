@@ -1,3 +1,11 @@
+// if(condition) {    
+// statement 1; //executes when condition is true   
+// }    
+
+
+
+
+
 public class Simple_If {
     public static void main(String[] args) {
 int x = 5;
