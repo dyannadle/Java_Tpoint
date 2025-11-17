@@ -4,7 +4,7 @@ int x = 15;
 int y= 10;
 if(x+y>20)
 {
-            System.out.println(number + " is an even number.");
+            System.out.println("x+y is geater than 20");
         }
     }
 }
