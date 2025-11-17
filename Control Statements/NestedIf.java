@@ -11,21 +11,20 @@
 public class NestedIf {
     
 public static void main(String args []){
-    String address="india , mumbai, area , andheri east";
-    if address.endsWith("India"));{
-if address.contains("mumbai")){
+    String address=" andheri east, mumbai, area ,india";
+    if (address.endsWith("india")){
+if (address.contains("mumbai")){
     System.out.println("your city is mumbai");
-}else(address.contains("pune")){
+}else if (address.contains("pune")){
     System.out.println("your city is pune");    
-}else(address.contains("nagpur")){
+}else if(address.contains("nagpur")){
     System.out.println("your city is nagpur");  
 }else{
-    System.out.println(address.split(","[0]));
-}
-    }else{
-    System.out.println("you are not in india");
-      
+    System.out.println(address.split(",")[0]);
 
+}
+}else{
+    System.out.println("you are not in india");
     }
 }
 
