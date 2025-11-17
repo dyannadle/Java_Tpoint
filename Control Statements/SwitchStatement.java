@@ -16,9 +16,8 @@
 public class SwitchStatement {
     public static void main(String[] args) {
 int num=2;
-Switch num=2;
 switch (num){
-    casse 0:
+    case 0:
         System.out.println("number is zero");
         break;
     case 1:
