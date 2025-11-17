@@ -6,8 +6,7 @@ if(x+y>20)
 {
             System.out.println("x+y is geater than 20");
         }
-        else {
-            System.out.println("x+y is less than or equal to 20");
+
         }
     }
-}
+

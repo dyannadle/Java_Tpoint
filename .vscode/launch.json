@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "if_else",
+            "request": "launch",
+            "mainClass": "if_else",
+            "projectName": "Java_Tpoint_f7287e40"
+        },
+        {
+            "type": "java",
             "name": "Simple_If",
             "request": "launch",
             "mainClass": "Simple_If",
