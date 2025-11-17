@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NestedIf",
+            "request": "launch",
+            "mainClass": "NestedIf",
+            "projectName": "Java_Tpoint_f7287e40"
+        },
+        {
+            "type": "java",
             "name": "IfElseIfLadder",
             "request": "launch",
             "mainClass": "IfElseIfLadder",
