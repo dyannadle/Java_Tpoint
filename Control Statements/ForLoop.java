@@ -1,3 +1,8 @@
+// for(initialization, condition, increment/decrement) {    
+// //block of statements    
+// }    
+
+
 public class ForLoop{
     public static void main (String[] args) {
         int sum=0;
