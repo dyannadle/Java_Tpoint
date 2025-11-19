@@ -1,6 +1,6 @@
 public class NestedIf1 {
     public class Main {    
-public static void main(String[] args) {    
+public static void main(String args[]) {    
     //Creating two variables for age and weight  
     int age=20;  
     int weight=80;    
