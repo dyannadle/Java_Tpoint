@@ -1,4 +1,4 @@
-public class NstedSwitch {
+public class NestedSwitch {
     public static void main(String[] args) {
     char branch = 'C';
     int collegeYear = 3;    
