@@ -1,7 +1,7 @@
 public class NstedSwitch {
     public static void main(String[] args) {
     char branch = 'C';
-    int collegeYear = 4;    
+    int collegeYear = 3;    
     switch(collegeYear){
     case 1: 
         System.out.println("English, Maths, Science"); 
