@@ -7,6 +7,7 @@ public class LabeledForLoop {
                 if (i==2&&j==2){
                     break aa;
                 }
+                System.out.println(i + " "+ j);
             }
             }
         }
