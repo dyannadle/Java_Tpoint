@@ -1,6 +1,6 @@
 public class TraversingTheArrayElements {
     public static void main(String[] args) {
-        int arr[]={12,13,14,55};
+        int arr[]={12,13,14,44};
         
         // Using for-each loop to traverse the array
         for (int i:arr) {
