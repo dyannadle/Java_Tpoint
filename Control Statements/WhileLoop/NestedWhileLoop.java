@@ -15,7 +15,7 @@ public class NestedWhileLoop {
         while (i <= 3) {
             System.out.println("Outer Loop Iteration: " + i);
             int j = 1;
-            while (j <= 2) {
+            while (j <= 5) {
                 System.out.println("  Inner Loop Iteration: " + j);
                 j++;
             }
