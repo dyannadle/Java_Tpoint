@@ -13,10 +13,10 @@ public class NestedWhileLoop {
     public static void main(String[] args) {
         int i = 1;
         while (i <= 3) {
-            System.out.println("Outer Loop Iteration: " + i);
+           //System.out.println("Outer Loop Iteration: " + i);
             int j = 1;
             while (j <= 5) {
-                System.out.println("  Inner Loop Iteration: " + j);
+                //System.out.println("  Inner Loop Iteration: " + j);
                 j++;
             }
             i++;
