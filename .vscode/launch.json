@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Example",
+            "request": "launch",
+            "mainClass": "Example",
+            "projectName": "Java_Tpoint_f7287e40"
+        },
+        {
+            "type": "java",
             "name": "SwitchStatement",
             "request": "launch",
             "mainClass": "SwitchStatement",
