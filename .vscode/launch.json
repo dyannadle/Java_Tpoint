@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DoWhileLoop",
+            "request": "launch",
+            "mainClass": "DoWhileLoop",
+            "projectName": "Java_Tpoint_f7287e40"
+        },
+        {
+            "type": "java",
             "name": "Example",
             "request": "launch",
             "mainClass": "Example",
