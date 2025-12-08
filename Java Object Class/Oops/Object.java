@@ -4,7 +4,7 @@ class Dog{
         System.out.println(name + " says Woof");
     }
 }   
-public class main{
+public class Object{
     public static void main(String []args) {
         Dog myDog = new Dog();
         myDog.name = "Rocky";
