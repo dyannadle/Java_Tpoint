@@ -21,7 +21,7 @@ public class ArmyEligibility {
         double weight = scanner.nextDouble();
 
      
-        if (height >= minHeight) {
+        if (height >= minHeight && height <= maxHeight) {
             if (weight >= minWeight && weight <= maxWeight) {
                 System.out.println("\nCongratulations! You are eligible for the army.");
             } else {
@@ -30,8 +30,9 @@ public class ArmyEligibility {
             }
         } else {
             System.out.println("\nResult: Not Eligible.");
-            System.out.println("Reason: Your height must be at least " + minHeight + " cm.");
+            System.out.println("Reason: Your height must be between " + minHeight + " and " + maxHeight + " feet.");
         }
+
 
         scanner.close();
     }
