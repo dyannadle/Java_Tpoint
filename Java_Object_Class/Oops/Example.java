@@ -1,10 +1,10 @@
 package Java_Object_Class.Oops;
 
 // Java program for demonstrating the features and functionalities of OOP concepts in Java.    
-class Animal {    
+class ExampleAnimal {    
     private String name;    
     // Constructor    
-    public Animal(String name) {    
+    public ExampleAnimal(String name) {    
         this.name = name;    
     }    
     // Encapsulation: Getter method    
@@ -17,9 +17,9 @@ class Animal {
     }    
 }    
 // Derived class (Inheritance)    
-class Dog extends Animal {    
+class ExampleDog extends ExampleAnimal {    
     // Constructor    
-    public Dog(String name) {    
+    public ExampleDog(String name) {    
         super(name);    
     }    
     // Polymorphism: Overriding method    
@@ -29,9 +29,9 @@ class Dog extends Animal {
     }    
 }    
 // Derived class (Inheritance)    
-class Cat extends Animal {    
+class ExampleCat extends ExampleAnimal {    
     // Constructor    
-    public Cat(String name) {    
+    public ExampleCat(String name) {    
         super(name);    
     }    
     // Polymorphism: Overriding method    
@@ -43,8 +43,8 @@ class Cat extends Animal {
 public class Example {    
     public static void main(String[] args) {    
         // Creating objects of the Dog and Cat classes    
-        Dog dog = new Dog("Buddy");    
-        Cat cat = new Cat("Whiskers");    
+        ExampleDog dog = new ExampleDog("Buddy");    
+        ExampleCat cat = new ExampleCat("Whiskers");    
         // Accessing methods of the base class through objects of derived classes    
         System.out.println("Dog name: " + dog.getName());    
         dog.makeSound();    

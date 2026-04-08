@@ -1,14 +1,14 @@
 package Java_Object_Class.Oops;
 
-class Dog{
+class ObjectDog {
     String name;
-    void bark(){
+    void bark() {
         System.out.println(name + " says Woof");
     }
 }   
-public class Object{
+public class Object {
     public static void main(String []args) {
-        Dog myDog = new Dog();
+        ObjectDog myDog = new ObjectDog();
         myDog.name = "Rocky";
         myDog.bark();
         

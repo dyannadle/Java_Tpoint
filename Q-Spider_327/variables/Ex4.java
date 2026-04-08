@@ -15,4 +15,9 @@ public class Ex4 { // Line 2: Declares a public class named 'Ex4'. The class nam
         return c; // Line 11: Returns the value of 'c' to the caller. This is how the method sends its computed result back.
     } // Line 12: Closes the 'add' method body.
 
+    // Overloaded method to handle double parameters
+    public static double add(double a, double b) {
+        return a + b;
+    }
+
 } // Line 13: Closes the 'Ex4' class body. Every opening brace '{' must have a matching closing brace '}'.

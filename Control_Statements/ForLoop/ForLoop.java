@@ -1,4 +1,4 @@
-package Control_Statements;
+package Control_Statements.ForLoop;
 
 // for(initialization, condition, increment/decrement) {    
 // //block of statements    

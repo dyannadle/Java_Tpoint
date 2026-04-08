@@ -1,4 +1,4 @@
-package Control_Statements;
+package Control_Statements.ForEachLoop;
 
 
 // for(data_type var : array_name/collection_name){    
