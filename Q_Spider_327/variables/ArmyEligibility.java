@@ -1,4 +1,4 @@
-package Q_Spider_327;
+package Q_Spider_327.variables;
 
 import java.util.Scanner;
 
@@ -9,12 +9,11 @@ public class ArmyEligibility {
         Scanner scanner = new Scanner(System.in);
 
         double minHeight = 5.5;
-        double maxHeight= 6.1;
-        double minWeight = 60.0 ; 
+        double maxHeight = 6.1;
+        double minWeight = 60.0;
         double maxWeight = 80.0;
-        
-        System.out.println("--- Army Eligibility Checker ---");
 
+        System.out.println("--- Army Eligibility Checker ---");
 
         System.out.print("Enter your height (in feet): ");
         double height = scanner.nextDouble();
@@ -22,7 +21,6 @@ public class ArmyEligibility {
         System.out.print("Enter your weight (in kg): ");
         double weight = scanner.nextDouble();
 
-     
         if (height >= minHeight && height <= maxHeight) {
             if (weight >= minWeight && weight <= maxWeight) {
                 System.out.println("\nCongratulations! You are eligible for the army.");
@@ -34,7 +32,6 @@ public class ArmyEligibility {
             System.out.println("\nResult: Not Eligible.");
             System.out.println("Reason: Your height must be between " + minHeight + " and " + maxHeight + " feet.");
         }
-
 
         scanner.close();
     }
