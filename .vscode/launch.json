@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ex8",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.variables.Ex8",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
             "name": "Ex7",
             "request": "launch",
             "mainClass": "Q_Spider_327.variables.Ex7",
