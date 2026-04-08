@@ -1,3 +1,5 @@
+package Operators;
+
 public class AssignmentOperatorAdd {
 public static void main(String args[]){    
 short a=10;    

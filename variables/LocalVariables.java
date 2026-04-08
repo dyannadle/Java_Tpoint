@@ -1,3 +1,5 @@
+package variables;
+
 public class LocalVariables {
     public static void main(String[] args) {
         int num = 10;

@@ -1,3 +1,5 @@
+package variables;
+
 public class InstanceVariable {
     public String name;
     public int age = 20; // instance variable

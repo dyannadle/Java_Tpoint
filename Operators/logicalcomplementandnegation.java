@@ -1,3 +1,5 @@
+package Operators;
+
 public class logicalcomplementandnegation {
 public static void main(String args[]) {  
 int a=10;      

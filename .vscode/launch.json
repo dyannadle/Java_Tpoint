@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Ex4",
             "request": "launch",
+            "mainClass": "variables.Ex4",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
+            "name": "Exe3",
+            "request": "launch",
+            "mainClass": "variables.Exe3",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
+            "name": "Ex4",
+            "request": "launch",
             "mainClass": "Ex4",
             "projectName": "Java_Tpoint-1_cf01f3e4"
         },

@@ -1,3 +1,5 @@
+package Operators;
+
 public class BitwiseXOROperator {
     public static void main(String args[]){
         int a=11;// 1011

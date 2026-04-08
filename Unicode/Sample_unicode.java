@@ -1,3 +1,5 @@
+package Unicode;
+
 public class Sample_unicode {
     public static void main(String[] args) {
         char a= '\u0041';// Unicode for A
