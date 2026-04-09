@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SwitchEx",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.SwitchEx",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
             "name": "ElseIfLadder",
             "request": "launch",
             "mainClass": "Q_Spider_327.ElseIfLadder",
