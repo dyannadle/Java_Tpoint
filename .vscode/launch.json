@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ladderEx",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.ladderEx",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
             "name": "TAsk1",
             "request": "launch",
             "mainClass": "Q_Spider_327.TAsk1",
