@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Bike",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.OOPS.Bike",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
             "name": "Car",
             "request": "launch",
             "mainClass": "Q_Spider_327.OOPS.Car",
