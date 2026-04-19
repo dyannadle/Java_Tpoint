@@ -20,10 +20,10 @@ public class Laptop {
 
     public static void main(String[] args) {
         Laptop l1 = new Laptop("ASUS");
-        Laptop l2 = new Laptop(4 + "GB");
+        Laptop l2 = new Laptop(4);
         Laptop l3 = new Laptop(false);
         System.out.println(l1.bName);
-        System.out.println(l2.ram);
+        System.out.println(l2.ram + "  GB ");
         System.out.println(l3.graphic);
     }
 }

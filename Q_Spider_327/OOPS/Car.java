@@ -1,7 +1,7 @@
-package Q_Spider_327.OOPS;
+package variable;
 
 public class Car {
-    Car() {
+    public Car() {
         System.out.println("Good Morning");
 
     }
