@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Cup",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.OOPS.Cup",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
             "name": "TestStudent",
             "request": "launch",
             "mainClass": "Q_Spider_327.OOPS.TestStudent",
