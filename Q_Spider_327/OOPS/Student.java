@@ -11,6 +11,9 @@ public class Student {
     }
 
     // Default zero-argument constructor
+    public Student() {
+    }
+
     public Student(String sid, int age) {
         this.sid = sid;
         this.age = age;

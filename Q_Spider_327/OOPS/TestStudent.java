@@ -6,7 +6,7 @@ public class TestStudent {
         s.name = "Deepak";
         System.out.println(s.name);
         Student s1 = new Student("Ram");
-        System.out.println(s1);
+        System.out.println(s1.name);
 
     }
 
