@@ -5,14 +5,21 @@ public class MethodEx4 {
 
     public static void main(String[] args) {
         MethodEx4 t1 = new MethodEx4();
-        t1.demo();
+        t.demo();
         System.out.println(t1.a);
-
+        MethodEx4 t1 = new MethodEx4();
+        t1.demo();
     }
 
     public void demo() {
 
         System.out.println("hi");
-        System.out.println(a);
+        System.out.println(this.a);
+        System.out.println(this.add(10, 20));
+    }
+
+    public double add(double a, double b) {
+        return a + b;
+
     }
 }
