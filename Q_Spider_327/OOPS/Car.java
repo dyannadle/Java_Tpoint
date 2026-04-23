@@ -1,4 +1,4 @@
-package variable;
+package Q_Spider_327.OOPS;
 
 public class Car {
     public Car() {

@@ -1,3 +1,5 @@
+package Q_Spider_327.Tasks;
+
 import java.util.Scanner;
 
 public class DivisibleBy5And7 {

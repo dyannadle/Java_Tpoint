@@ -5,10 +5,10 @@ public class MethodEx4 {
 
     public static void main(String[] args) {
         MethodEx4 t1 = new MethodEx4();
-        t.demo();
-        System.out.println(t1.a);
-        MethodEx4 t1 = new MethodEx4();
         t1.demo();
+        System.out.println(t1.a);
+        MethodEx4 t2 = new MethodEx4();
+        t2.demo();
     }
 
     public void demo() {

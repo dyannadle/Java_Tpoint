@@ -1,3 +1,5 @@
+package Q_Spider_327.Tasks;
+
 public class AverageFirst10 {
     public static void main(String[] args) {
         int sum = 0;
