@@ -8,7 +8,7 @@ public class Car {
 
     public static void main(String[] args) {
         System.out.println("hi");
-        Car c = new Car();
+        new Car();
     }
 
 }

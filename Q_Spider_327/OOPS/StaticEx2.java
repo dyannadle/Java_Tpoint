@@ -7,9 +7,9 @@ public class StaticEx2 {
     public static void main(String[] args) {
         System.out.println(r);
         System.out.println(StaticEx2.r = 45);
-        StaticEx2 e = new StaticEx2();
+        new StaticEx2();
         System.out.println(StaticEx2.r);
-        StaticEx2 e1 = new StaticEx2();
+        new StaticEx2();
         System.out.println(StaticEx2.r);
 
     }
