@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestBag",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.Tasks.TestBag",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
+            "name": "Bag",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.Tasks.Bag",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
             "name": "TestBottle",
             "request": "launch",
             "mainClass": "Q_Spider_327.Tasks.TestBottle",
