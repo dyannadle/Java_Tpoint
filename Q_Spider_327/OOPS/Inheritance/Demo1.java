@@ -4,7 +4,7 @@ public class Demo1 extends Demo {
 
     Demo1() {
         super();
-        System.out.println(" child");
+        System.out.println("Child");
     }
 
     public static void main(String[] args) {
