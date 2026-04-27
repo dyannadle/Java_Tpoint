@@ -6,8 +6,8 @@ public class TestBag {
 
         Bag b = new Bag("Sky Bag", 1200.50, "Blue");
 
-        System.out.println("Bag Name: " + b.getbName());
-        System.out.println("Price:" + b.getprice());
+        System.out.println("Bag Name:" + b.getbName());
+        System.out.println("Price:" + b.getPrice());
         System.out.println("Color:" + b.getColor());
     }
 }
