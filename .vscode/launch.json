@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "B",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.OOPS.Inheritance.B",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
             "name": "TestTower",
             "request": "launch",
             "mainClass": "Q_Spider_327.OOPS.TestTower",
