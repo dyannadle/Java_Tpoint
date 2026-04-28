@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Oop",
+            "request": "launch",
+            "mainClass": "Java_Object_Class.Oops.Oop",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
+            "name": "Oops",
+            "request": "launch",
+            "mainClass": "Java_Object_Class.Oops.Oops",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
             "name": "Demo1",
             "request": "launch",
             "mainClass": "Q_Spider_327.OOPS.Inheritance.Demo1",
