@@ -35,11 +35,5 @@ public class Oop {
         pen pen2 = new pen();
         pen2.colour = "blue";
         pen2.type = "gel";
-        
-        pen1.write();
-        pen1.printColour();
-        
-        pen2.write();
-        pen2.printColour();
     }
 }
