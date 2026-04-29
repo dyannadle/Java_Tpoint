@@ -1,4 +1,4 @@
-package Q_Spider_327.OOPS.Inheritance.Multilevel Inhertance;
+package Q_Spider_327.OOPS.Inheritance.Multilevel_Inheritance;
 
 public class C1 extends B1  {
     char ch = 'k';
