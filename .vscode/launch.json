@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "arithmeticOperators",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.Tasks.arithmeticOperators",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.Tasks.main",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.Tasks.Main",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
             "name": "C1",
             "request": "launch",
             "mainClass": "C1",
