@@ -12,7 +12,7 @@ public class arithmeticOperators {
         a = sc.nextInt();
         System.out.println("Enter the value of b");
         b = sc.nextInt();
-
+        sc.close();
     }
 
     public void calculate() {

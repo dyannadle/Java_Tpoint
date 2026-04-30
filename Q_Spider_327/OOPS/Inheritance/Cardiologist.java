@@ -4,6 +4,12 @@ public class Cardiologist extends Doctor {
     // It should contain one more property ByPassSurgery
     boolean ByPassSurgery = true;
 
+    public Cardiologist(String name, int dlNo, boolean byPassSurgery) {
+        Doctor.name = name;
+        this.DLno = dlNo;
+        this.ByPassSurgery = byPassSurgery;
+    }
+
     public void ByPass() {
         System.out.println("Performing bypass surgery...");
     }

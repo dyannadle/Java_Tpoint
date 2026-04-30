@@ -9,7 +9,7 @@ public class RightangleTriangle extends Triangle {
     }
 }
 
-class Main {
+class RightangleTriangleMain {
     public static void main(String[] args) {
         RightangleTriangle r = new RightangleTriangle();
         r.setBase(10);

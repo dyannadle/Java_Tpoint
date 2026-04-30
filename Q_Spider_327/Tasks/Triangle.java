@@ -3,7 +3,6 @@ package Q_Spider_327.Tasks;
 public class Triangle extends shape {
     private double base;
     private double height;
-    private double area;
 
     public void setBase(double base) {
         this.base = base;
