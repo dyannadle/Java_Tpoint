@@ -1,4 +1,4 @@
-package Q_Spider_327.OOPS.Inheritance.Multilevel_Inheritance;
+package Q_Spider_327.OOPS.Inheritance.Hierarchical_inheritance;
 
 public class TestABC2 {
     public static void main(String[] args) {

@@ -29,6 +29,9 @@ public class Bag {
         this.color = color;
     }
 
+    public Bag() {
+    }
+
     public Bag(String bName, double price, String color) {
         this.bName = bName;
         this.price = price;

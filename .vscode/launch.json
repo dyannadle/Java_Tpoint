@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TesstPersonStudent",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.OOPS.Inheritance.Multilevel_Inheritance.TesstPersonStudent",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
+            "name": "TextBoxPen",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.OOPS.Inheritance.Hierarchical_inheritance.TextBoxPen",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
+            "name": "SchoolBagMain",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.OOPS.Inheritance.Hierarchical_inheritance.SchoolBagMain",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
             "name": "TestABC2",
             "request": "launch",
             "mainClass": "TestABC2",
