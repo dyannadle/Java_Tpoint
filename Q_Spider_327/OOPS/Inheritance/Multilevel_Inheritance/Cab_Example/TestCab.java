@@ -1,4 +1,4 @@
-package Q_Spider_327.OOPS.Inheritance;
+package Q_Spider_327.OOPS.Inheritance.Multilevel_Inheritance.Cab_Example;
 
 import java.util.Scanner;
 
