@@ -15,17 +15,15 @@ public class TestABCD4 {
         // System.out.println(b instanceof C4);
         // System.out.println(b instanceof D4);
 
-        // C4 c = new C4();
-        // System.out.println(c instanceof A4);
-        // System.out.println(c instanceof B4);
-        // System.out.println(c instanceof C4);
-        // System.out.println(c instanceof D4);
+        C4 a1 = new C4();
+        System.out.println(a1 instanceof A4);
+        System.out.println(a1 instanceof C4);
+        System.out.println(a1 instanceof D4);
 
-        // D4 d = new D4();
-        // System.out.println(d instanceof A4);
-        // System.out.println(d instanceof B4);
-        // System.out.println(d instanceof C4);
-        // System.out.println(d instanceof D4);
+        D4 a2 = new D4();
+        System.out.println(a2 instanceof A4);
+        System.out.println(a2 instanceof C4);
+        System.out.println(a2 instanceof D4);
 
     }
 }
