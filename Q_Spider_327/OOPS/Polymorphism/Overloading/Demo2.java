@@ -1,4 +1,4 @@
-package Q_Spider_327.OOPS.Overriding;
+package Q_Spider_327.OOPS.Polymorphism.Overloading;
 
 public class Demo2 {
     public static void Demo() {

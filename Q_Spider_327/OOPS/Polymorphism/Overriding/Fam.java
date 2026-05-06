@@ -1,4 +1,4 @@
-package Q_Spider_327.OOPS.Overriding;
+package Q_Spider_327.OOPS.Polymorphism.Overriding;
 
 class Fam {
     public static void main(String[] args) {
