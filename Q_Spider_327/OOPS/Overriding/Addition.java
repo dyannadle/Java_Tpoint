@@ -1,4 +1,4 @@
-package Q_Spider_327.OOPS.Overriding;
+9package Q_Spider_327.OOPS.Overriding;
 
 public class Addition {
     public static double add(double d) {
@@ -9,11 +9,11 @@ public class Addition {
         return d + d1;
     }
 
-    public static double add(double d, double d1, double d2, double d3) {
+    public static double add(double d, double d1, double d2) {
         return d + d1 + d2;
     }
 
     public static void main(String[] args) {
-        System.out.println(add(23, 'a', 8.9));
+        System.out.println(add(90, 'a', 8.9));
     }
 }
