@@ -1,0 +1,19 @@
+package Q_Spider_327.OOPS.Overriding;
+
+public class Addition {
+    public static double add(double d) {
+        return d + d;
+    }
+
+    public static double add(double d, double d1) {
+        return d + d1;
+    }
+
+    public static double add(double d, double d1, double d2, double d3) {
+        return d + d1 + d2;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(add(23, 'a', 8.9));
+    }
+}
