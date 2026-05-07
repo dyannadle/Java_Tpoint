@@ -31,6 +31,9 @@ public static void main(String[] args) {
             System.out.println("Invalid choice");
         }
         }
-        
+        if (c != null) {
+            System.out.println("You have booked a " + c.getClass().getSimpleName());
+        }
+        s.close();
     }
 }

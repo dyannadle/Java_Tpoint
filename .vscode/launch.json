@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.OOPS.Polymorphism.Overriding.Main",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.OOPS.Polymorphism.Overriding.main",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
             "name": "Fam",
             "request": "launch",
             "mainClass": "Q_Spider_327.OOPS.Polymorphism.Overriding.Fam",
