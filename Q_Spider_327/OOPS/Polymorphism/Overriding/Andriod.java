@@ -24,7 +24,10 @@ class Main {
         Phone p2 = new Andriod();
         p2.display();
 
+        Phone p3 = new Phone();
+        p3.call();
         a.call();
+
     }
 
 }
