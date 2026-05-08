@@ -11,24 +11,33 @@ public class Employee extends Person {
 
     }
 
-    void work() {
+    public void work() {
         System.out.println("Empolyee is working .");
     }
 
-    @Override
-    void walk() {
+    public void walk() {
         System.out.println("Employee is walking.");
     }
 
-    @Override
-    void run() {
+    public void run() {
         System.out.println("Employee is running.");
     }
 
-    @Override
-    void sleep() {
+    public void sleep() {
         System.out.println("Employee is sleeping.");
 
+    }
+
+    // super call
+
+    Employee() {
+        super();
+    }
+
+    Employee(String name, String add, int empId, String Company) {
+        super(name, add);
+        this.empId = empId;
+        this.Company = Company;
     }
 
     public static void main(String[] args) {
