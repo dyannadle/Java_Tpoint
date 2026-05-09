@@ -1,4 +1,4 @@
-package Q_Spider_327.OOPS.Inheritance;
+package Q_Spider_327.OOPS.Inheritance.Single_Level_Inheritance;
 
 public class Cardiologist extends Doctor {
     // It should contain one more property ByPassSurgery

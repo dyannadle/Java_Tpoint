@@ -1,5 +1,5 @@
 
-package Q_Spider_327.OOPS;
+package Q_Spider_327.OOPS.Encapsulation;
 
 public class Laptop {
     String bName;

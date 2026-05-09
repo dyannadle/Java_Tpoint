@@ -1,4 +1,4 @@
-package Q_Spider_327.OOPS.Inheritance;
+package Q_Spider_327.OOPS.Inheritance.Single_Level_Inheritance;
 
 public class B extends A {
     public static void main(String[] args) {

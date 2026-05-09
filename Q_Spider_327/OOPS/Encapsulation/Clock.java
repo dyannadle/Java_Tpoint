@@ -1,7 +1,7 @@
 package Q_Spider_327.OOPS.Encapsulation;
 
 public class Clock {
-    int hr, min, sec;
+    public int hr, min, sec;
 
     public Clock(int hr, int min, int sec) {
         this.hr = hr;

@@ -1,4 +1,4 @@
-package Q_Spider_327.OOPS.Inheritance;
+package Q_Spider_327.OOPS.Inheritance.Single_Level_Inheritance;
 
 public class TestDemo23 {
     public static void main(String[] args) {

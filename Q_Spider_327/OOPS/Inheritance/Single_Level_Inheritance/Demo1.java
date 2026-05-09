@@ -1,4 +1,4 @@
-package Q_Spider_327.OOPS.Inheritance;
+package Q_Spider_327.OOPS.Inheritance.Single_Level_Inheritance;
 
 public class Demo1 extends Demo {
     int i;

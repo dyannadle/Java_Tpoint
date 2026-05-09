@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Sample",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.OOPS.Abstraction.Interface.Sample",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
+            "name": "sample",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.OOPS.Abstraction.Interface.sample",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
             "name": "Employee",
             "request": "launch",
             "mainClass": "Q_Spider_327.OOPS.Abstraction.Employee",
