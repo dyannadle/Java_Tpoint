@@ -1,5 +1,5 @@
 package Q_Spider_327.OOPS.Abstraction.Interface;
 
-public interface Bag {
-    void carry();
+public class B {
+
 }

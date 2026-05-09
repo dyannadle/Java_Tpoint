@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HandBag",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.OOPS.Abstraction.Interface.HandBag",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
             "name": "Sample3",
             "request": "launch",
             "mainClass": "Q_Spider_327.OOPS.Abstraction.Interface.Sample3",
