@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestBag",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.OOPS.tostring.TestBag",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
             "name": "StringEx2",
             "request": "launch",
             "mainClass": "Q_Spider_327.OOPS.tostring.StringEx2",
