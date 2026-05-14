@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestPhone",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.OOPS.tostring.TestPhone",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
+            "name": "Demo1",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.Demo1",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
             "name": "TestBag",
             "request": "launch",
             "mainClass": "Q_Spider_327.OOPS.tostring.TestBag",

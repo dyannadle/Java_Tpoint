@@ -12,7 +12,8 @@ public class Phone {
     }
 
     public boolean equals(Object obj) {
-
+        Phone p = (Phone) obj;
+        return this.price == p.price && this.bName.equals(p.bName) && this.color.equals(p.color);
     }
 
 }
