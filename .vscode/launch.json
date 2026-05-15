@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringEx3",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.OOPS.tostring.StringEx3",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
             "name": "Opps",
             "request": "launch",
             "mainClass": "Q_Spider_327.OOPS.Opps",
