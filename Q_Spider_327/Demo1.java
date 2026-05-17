@@ -1,6 +1,5 @@
 package Q_Spider_327;
 
-import Q_Spider_327.OOPS.Abstraction.Demo;
 
 public class Demo1 {
     public static void main(String[] args) {
