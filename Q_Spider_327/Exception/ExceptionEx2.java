@@ -11,9 +11,9 @@ public class ExceptionEx2 {
 
             System.out.println("do not divide by a integer number");
         }
-        ExceptionEx2 obj = null;
+        ExceptionEx2 e = null;
         try {
-            System.out.println(obj.i);
+            System.out.println(e.i);
         } catch (NullPointerException e) {
             System.out.println("Null pointer exception");
         }

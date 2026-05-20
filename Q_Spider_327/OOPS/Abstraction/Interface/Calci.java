@@ -1,8 +1,7 @@
 package Q_Spider_327.OOPS.Abstraction.Interface;
 
 public class Calci
-extends AbstractCalci2
-implements AbstractCalci1
+implements AbstractCalci1, AbstractCalci2
 {
 
     public void mul(int a, int b) {
