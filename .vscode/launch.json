@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.Exception.Factorial",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionEx2",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.Exception.ExceptionEx2",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionEx1",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.Exception.ExceptionEx1",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
             "name": "StringEx4",
             "request": "launch",
             "mainClass": "Q_Spider_327.OOPS.tostring.StringEx4",
