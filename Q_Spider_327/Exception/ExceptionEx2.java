@@ -11,6 +11,7 @@ public class ExceptionEx2 {
 
             System.out.println("do not divide by a integer number");
         }
+        @SuppressWarnings("null")
         ExceptionEx2 e = null;
         try {
             System.out.println(e.i);

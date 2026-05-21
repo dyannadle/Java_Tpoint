@@ -19,7 +19,7 @@ public class EX3 {
             System.out.println("Handled");
         }
         System.out.println(c);
-
+        s.close();
     }
 
 }

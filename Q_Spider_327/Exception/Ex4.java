@@ -12,5 +12,4 @@ public class Ex4 {
         }
         System.out.println("bye");
     }
-
 }

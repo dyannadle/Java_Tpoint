@@ -25,7 +25,7 @@ c = obj[a].i / obj[b].j;
 
         }
         System.out.println(c);
-
+        s.close();
     }
 
 }
