@@ -13,10 +13,7 @@ public class ExceptionEx2 {
         }
         ExceptionEx2 e = null;
         try {
-            System.out.println(
-                
-                
-                .i);
+            System.out.println(e.i);
         } catch (NullPointerException r) {
             System.out.println("Null pointer exception");
         }
