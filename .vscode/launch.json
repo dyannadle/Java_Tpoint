@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "user",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.Exception.user",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
             "name": "Factorial",
             "request": "launch",
             "mainClass": "Q_Spider_327.Exception.Factorial",
