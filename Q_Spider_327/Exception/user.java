@@ -2,8 +2,6 @@ package Q_Spider_327.Exception;
 
 import java.util.Scanner;
 
-import Q_Spider_327.OOPS.Inheritance.Single_Level_Inheritance.A;
-
 public class user {
     public static void main(String[] args) {
         A obj[] = new A[4];
@@ -14,7 +12,18 @@ public class user {
         int a = s.nextInt();
         int b = s.nextInt();
         int c = 0;
-        c = obj[a].i / obj[b].j;
+        try{
+c = obj[a].i / obj[b].j;
+        }
+        catch (ArithmeticException t ){
+            System.out.println("Do not divide with zero");
+        }
+        catch (NullPointerException r){
+            System.out.println("object not created ");
+        }catch (Exception u ){
+            System.out.println("Handled !");
+
+        }
         System.out.println(c);
 
     }
