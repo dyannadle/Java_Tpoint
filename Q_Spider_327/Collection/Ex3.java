@@ -3,6 +3,8 @@ package Q_Spider_327.Collection;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+import Control_Statements.Continue.WhileLoop;
+
 public class Ex3 {
     public static void main(String[] args) {
         ArrayList a1 = new ArrayList<>();
@@ -13,20 +15,9 @@ public class Ex3 {
         a1.add(50);
         System.out.println(a1);
         Iterator i = a1.iterator();
-        System.out.println(i.hasNext());
-        System.out.println(i.next());
-        System.out.println(i.hasNext());
-        System.out.println(i.next());
-        System.out.println(i.hasNext());
-        System.out.println(i.next());
-        System.out.println(i.hasNext());
-        System.out.println(i.next());
-        System.out.println(i.hasNext());
-        System.out.println(i.next());
-        System.out.println(i.hasNext());
-        System.out.println(i.next());
-        // do grouping of the above
-
+        while (i.hasNext()) {
+            System.out.println(i.next());
+        }
     }
 
 }
