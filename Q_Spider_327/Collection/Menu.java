@@ -1,6 +1,7 @@
 package Q_Spider_327.Collection;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Menu {
 
@@ -35,7 +36,14 @@ public class Menu {
         System.out.println("South Indian items :" + m4);
 
         m1.addAll(m2);
-        System.out.println("Brevages:" + m1);
+        m1.addAll(m3);
+        m1.addAll(m4);
+        System.out.println("All items:" + m1);
+        Iterator i = m1.iterator();
+        while (i.hasNext()) {
+            String s = (String) i.next();
+            System.out.println(s);
+        }
     }
 
 }
