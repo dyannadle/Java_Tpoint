@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Driver",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.variables.Driver",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
+            "name": "TestCab",
+            "request": "launch",
+            "mainClass": "Q_Spider_327.OOPS.Inheritance.Multilevel_Inheritance.Cab_Example.TestCab",
+            "projectName": "Java_Tpoint-1_cf01f3e4"
+        },
+        {
+            "type": "java",
             "name": "Laptop",
             "request": "launch",
             "mainClass": "Q_Spider_327.Collection.Laptop",

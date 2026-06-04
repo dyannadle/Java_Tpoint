@@ -14,8 +14,10 @@ public class Ex3 {
         a1.add(40);
         a1.add(50);
         System.out.println(a1);
+        int sum = 0;
         Iterator i = a1.iterator();
         while (i.hasNext()) {
+            sum = sum + (Integer) i.next();
             System.out.println(i.next());
         }
     }
